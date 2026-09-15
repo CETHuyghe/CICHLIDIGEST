@@ -17,7 +17,7 @@ conda activate inStrain_env
 mkdir -p output
 
 # define sample
-MYID=`cat Sample_ID_all.txt | head -n $SLURM_ARRAY_TASK_ID | tail -n 1`
+MYID=`cat Sample_ID.txt | head -n $SLURM_ARRAY_TASK_ID | tail -n 1`
 
 # run inStrain profile
 inStrain profile MAP_OUT_DIR/OUT_DIR/${MYID}_mag_mapped.bam DB_drep_MAGs/DB_drep_MAGs.fa -o OUT_DIR/${MYID} -p 10 -s scaftobin_all.stb
