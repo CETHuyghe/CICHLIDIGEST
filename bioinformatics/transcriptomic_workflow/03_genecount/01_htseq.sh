@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=STAR_mapping_50_Trimmomatic
+#SBATCH --job-name=HTSeq
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem-per-cpu=20G 
