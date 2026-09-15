@@ -1,0 +1,17 @@
+name: iqtree_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - nvidia
+  - pytorch
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - iqtree=3.0.1=h503566f_0
+  - libgcc=15.1.0=h767d61c_4
+  - libgomp=15.1.0=h767d61c_4
+  - libstdcxx=15.1.0=h8f9b012_4
+prefix: iqtree_env
